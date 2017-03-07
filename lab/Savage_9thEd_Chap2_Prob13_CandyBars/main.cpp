@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     cout<<"candy bars allowed per day based upon your BMR"<<endl;
     cout<<"Type in your Sex(M/F), Wt(lbs), Ht(in), Age(yrs)"<<endl;
     cout<<"Inputs are integer based"<<endl;
-    cin>>sex>>ht>>wt>>age;
+    cin>>sex>>wt>>ht>>age;
                 
     //Map inputs to outputs or process the data
     bmr=(sex=='M')?
